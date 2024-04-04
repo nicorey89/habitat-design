@@ -1,16 +1,5 @@
-const express = require("express");
-const app = express();
+const app = require("./src/app");
 const PORT = 3000;
-const path = require("path");
-
-app.use(express.static("public"));
-app.use(express.json());
-app.set('views', path.join(__dirname, 'views'))
-app.set('view engine', 'ejs');
-
-const indexRouter= require('./routes/index')
-
-app.use("/", indexRouter);
 
 
 app.use((err, req, res, next) => {
