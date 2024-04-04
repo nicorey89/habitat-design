@@ -1,0 +1,116 @@
+@media (max-width: 1040px){
+
+    header{
+        padding: 12px 20px;
+      }
+    
+      header.sticky{
+        padding: 10px 20px;
+      }
+    
+      header .navigation{
+        display: none;
+      }
+      /* ********************menu header responsive****************** */
+      .menu-btn{
+        position: absolute;
+        background: url(/images/vistas/menu.png)no-repeat;
+        background-size: 30px;
+        background-position: center;
+        background-color: #000;
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        right: 0;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: 0.3s ease;
+      }
+      .menu-btn.active{
+        z-index: 999;
+        background: url(/images/vistas/close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        background-color: #000;
+        transition: 0.3s ease;
+        filter: invert(1);  /* La propiedad CSS filter dota de efectos gráficos como el desenfoque o cambio de color en la representación antes de que se muestre el elemento. Los filtros se utilizan comúnmente para ajustar la representación de imágenes, fondos o bordes. */
+      }
+      .main .content , .cocinasAMedida .content{
+        max-width: 350px;
+    }
+    .main .content h2 , .cocinasAMedida .content h2{
+        background-color: rgba(255, 255, 255, 0.8);
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 20px;
+    }
+    .main .content h3{
+        background-color: gray;
+        color:blueviolet;
+        width: 95%;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 20px;
+    }
+
+      header .navigation.active{
+        z-index: 888;
+        position: fixed;
+        background: #fff;
+        top: 0;
+        right: 0;
+        width: 380px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        transition: 0.3s ease;
+      }
+      header .navigation a{
+        color: #000;
+        font-size: 1.2em;
+        margin: 10px;
+        padding: 0 20px;
+        border-radius: 20px;
+      }
+    
+      header .navigation a:hover{
+        background: #3a6cf4;
+        color: #fff;
+        transition: 0.3s ease;
+      }
+      section{
+        padding: 80px 20px;
+      }
+      .info{
+            display: none;
+       }
+       .info i{
+        display: none;
+       }
+       .info-content{
+        display: none;
+       }
+       .info-content1{
+        display: none;
+       }
+
+       main{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 100vw;
+       }
+       main .category-container{
+        margin-top: 20px;
+       }
+       main img{
+        margin-top: 10px;
+        width: 100%;
+       }
+
+
+}
