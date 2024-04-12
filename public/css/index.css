@@ -10,7 +10,7 @@ section.main, section.cocinasAMedida{
 }
 .main{
     position: relative;
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -41,8 +41,8 @@ section.main, section.cocinasAMedida{
     padding: 20px;
 }
 .main .content h3{
-    background-color: gray;
-    color:rgb(248, 189, 26);
+    background-color: #737373;
+    color: #FFBD59;
     width: 95%;
     font-size: 2rem;
     font-weight: 600;
@@ -51,7 +51,7 @@ section.main, section.cocinasAMedida{
 
 .btn{
     color: black;
-    background:rgb(248, 189, 26) ;
+    background: #FFBD59;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -75,7 +75,7 @@ section.main, section.cocinasAMedida{
    
   
   .media-icons a{
-    color: rgb(248, 189, 26);
+    color: #FFBD59;
     font-size: 25px;
     margin-right: 30px;
     
@@ -83,7 +83,7 @@ section.main, section.cocinasAMedida{
   header{
       z-index: 999;
       position: fixed;
-      background: rgba(255, 255, 255, 1);
+      background: #737373;
       top: 0;
       left: 0;
       width: 100%;
@@ -93,7 +93,7 @@ section.main, section.cocinasAMedida{
       transition: 0.5s ease;
   }
   header.sticky{
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.7);
     padding: 10px 20px;
   }
   header .logo{
@@ -111,14 +111,14 @@ section.main, section.cocinasAMedida{
     padding: 10px;
   }
   header .navigation a.nav1{
-    border-bottom: 3px solid rgb(248, 189, 26);
+    border-bottom: 3px solid #FFBD59;
   }
   header .navigation a:hover{
-    border-bottom: 3px solid rgb(248, 189, 26);
+    border-bottom: 3px solid #FFBD59;
   }
   
-  header.sticky .navigation a:hover{
-    color: #000;
+  header.sticky .navigation a{
+    color: white;
   }
   body{
     min-height: 110vh;
@@ -199,7 +199,7 @@ div.logos-marcas{
     height: 350px;
    }
    footer{
-    background-color: #000;
+    background-color: #737373;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -209,19 +209,55 @@ div.logos-marcas{
    footer span, footer a{
     text-decoration: none;
     margin: 10px;
-    color: white;
+    color: black;
    }
    footer a:hover{
-    color: rgb(248, 189, 26);
+    color: #FFBD59;
    }
    footer div a{
     padding: 5px;
     margin: 5px;
    }
    footer i{
-    color: white;
+    color: black;
    }
    footer i:hover{
-    color: rgb(248, 189, 26);
+    color: #FFBD59;
    }
 
+   .scrollToTop-btn{
+    z-index: 999;
+    position: fixed;
+    background: #FFBD59;
+    color: #737373;
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .scrollToTop-btn.active{
+    right: 20px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1.5s ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

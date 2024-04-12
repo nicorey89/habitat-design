@@ -11,6 +11,9 @@
       header .navigation{
         display: none;
       }
+      header.sticky .navigation a{
+        color: black;
+      }
       /* ********************menu header responsive****************** */
       .menu-btn{
         position: absolute;
@@ -53,7 +56,10 @@
         font-weight: 600;
         padding: 20px;
     }
-
+    div.logos-marcas{
+      display: flex;
+      flex-direction: column;
+    }
       header .navigation.active{
         z-index: 888;
         position: fixed;
