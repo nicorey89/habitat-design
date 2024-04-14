@@ -2,20 +2,29 @@
 
     header{
         padding: 12px 20px;
-      }
-    
-      header.sticky{
+    }
+
+    header .logo{
+        width: 150px;
+        position: absolute;
+        top: 5px;
+        left: 60px;
+    }
+
+    header.sticky{
         padding: 10px 20px;
-      }
+    }
     
-      header .navigation{
+    header .navigation{
         display: none;
-      }
-      header.sticky .navigation a{
+    }
+
+    header.sticky .navigation a{
         color: black;
-      }
-      /* ********************menu header responsive****************** */
-      .menu-btn{
+    }
+
+    /* ********************menu header responsive****************** */
+    .menu-btn{
         position: absolute;
         background: url(/images/vistas/menu.png)no-repeat;
         background-size: 30px;
@@ -28,8 +37,9 @@
         margin: 0 20px;
         cursor: pointer;
         transition: 0.3s ease;
-      }
-      .menu-btn.active{
+    }
+
+    .menu-btn.active{
         z-index: 999;
         background: url(/images/vistas/close.png)no-repeat;
         background-size: 25px;
@@ -37,10 +47,12 @@
         background-color: #000;
         transition: 0.3s ease;
         filter: invert(1);  /* La propiedad CSS filter dota de efectos gráficos como el desenfoque o cambio de color en la representación antes de que se muestre el elemento. Los filtros se utilizan comúnmente para ajustar la representación de imágenes, fondos o bordes. */
-      }
-      .main .content , .cocinasAMedida .content{
+    }
+
+    .main .content , .cocinasAMedida .content{
         max-width: 350px;
     }
+
     .main .content h2 , .cocinasAMedida .content h2{
         background-color: rgba(255, 255, 255, 0.8);
         color: black;
@@ -48,6 +60,7 @@
         font-weight: 500;
         padding: 20px;
     }
+
     .main .content h3{
         background-color: gray;
         color:rgb(248, 189, 26);
@@ -56,11 +69,13 @@
         font-weight: 600;
         padding: 20px;
     }
+
     div.logos-marcas{
       display: flex;
       flex-direction: column;
     }
-      header .navigation.active{
+
+    header .navigation.active{
         z-index: 888;
         position: fixed;
         background: #fff;
@@ -74,49 +89,56 @@
         flex-direction: column;
         box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
         transition: 0.3s ease;
-      }
-      header .navigation a{
+    }
+
+    header .navigation a{
         color: #000;
         font-size: 1.2em;
         margin: 10px;
         padding: 0 20px;
         border-radius: 20px;
-      }
+    }
     
-      header .navigation a:hover{
+    header .navigation a:hover{
         background: #3a6cf4;
         color: #fff;
         transition: 0.3s ease;
-      }
-      section{
-        padding: 80px 20px;
-      }
-      .info{
-            display: none;
-       }
-       .info i{
-        display: none;
-       }
-       .info-content{
-        display: none;
-       }
-       .info-content1{
-        display: none;
-       }
+    }
 
-       main{
+    section{
+        padding: 80px 20px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .info i{
+        display: none;
+     }
+
+    .info-content{
+        display: none;
+    }
+
+    .info-content1{
+        display: none;
+    }
+
+    main{
         display: flex;
         flex-direction: column;
         margin-bottom: 10px;
         width: 100vw;
-       }
-       main .category-container{
+    }
+
+    main .category-container{
         margin-top: 20px;
-       }
-       main img{
+    }
+
+    main img{
         margin-top: 10px;
         width: 100%;
-       }
-
+    }
 
 }
