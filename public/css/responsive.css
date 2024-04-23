@@ -63,7 +63,7 @@
 
     .main .content h3{
         background-color: gray;
-        color:rgb(248, 189, 26);
+        color:#FFBD59;
         width: 95%;
         font-size: 1rem;
         font-weight: 600;
@@ -100,7 +100,7 @@
     }
     
     header .navigation a:hover{
-        background: #3a6cf4;
+        background: #FFBD59;
         color: #fff;
         transition: 0.3s ease;
     }
@@ -139,6 +139,18 @@
     main img{
         margin-top: 10px;
         width: 100%;
+    }
+
+    .gallery img{
+        width: 100%;
+        border: 2px solid #737373;
+        object-fit: cover;
+        transition: 0.3s ease;
+    }
+    
+    .gallery img:hover{
+        border: 2px solid #FFBD59;
+        transform: scale(1.1);
     }
 
 }

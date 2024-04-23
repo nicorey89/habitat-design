@@ -154,6 +154,10 @@ header .navigation a.nav1{
     color: black;
     border-bottom: 3px solid #FFBD59;
 }
+header.sticky .navigation a.nav1{
+    color: black;
+    border-bottom: 3px solid #FFBD59;
+}
 
 header .navigation a:hover{
     color: black;
@@ -162,6 +166,9 @@ header .navigation a:hover{
   
 header.sticky .navigation a{
     color: white;
+}
+header.sticky .navigation a:hover{
+    color: black;
 }
 
 body{
@@ -199,6 +206,19 @@ main{
     margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
+}
+main.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main.about div{
+    width: 50%;
+}
+main.about p{
+    text-align: center;
+    font-size: 2rem;
 }
 
 main .category-container{
@@ -242,10 +262,13 @@ h2.gallery-title{
 .gallery img{
     width: 100%;
     border: 2px solid #737373;
+    object-fit: cover;
+    transition: 0.3s ease;
 }
 
 .gallery img:hover{
     border: 2px solid #FFBD59;
+    transform: scale(1.2);
 }
 
 section.marcas{
@@ -314,6 +337,17 @@ footer i:hover{
     color: #FFBD59;
 }
 
+.whatsApp img{
+    z-index: 9999;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 1;
+    font-size: 22px;
+}
+
 .scrollToTop-btn{
     z-index: 999;
     position: fixed;
@@ -321,8 +355,8 @@ footer i:hover{
     color: #737373;
     width: 45px;
     height: 45px;
-    right: 0;
-    bottom: 10px;
+    right: 10px;
+    bottom: 80px;
     font-size: 22px;
     text-align: center;
     line-height: 45px;

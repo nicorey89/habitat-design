@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="images/logo/Habitat_short.png"/>
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/resposive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     </head>
 <body>
@@ -15,9 +16,12 @@
   <div class="scrollToTop-btn">
     <i class="fa-solid fa-chevron-up"></i>
   </div>
+  <div class="whatsApp">
+    <a href="https://wa.me/+5491140273344"><img class="animate__animated animate__pulse animate__infinite" src="/images/vistas/WhatsApp_icon.png" alt=""></a>
+  </div>
 
     <header>
-        <a href="/"><img class="logo" src="/images/logo/Habitat.png" alt=""></a>
+        <a href="/"><img class="logo animate__animated animate__flip" src="/images/logo/Habitat.png" alt=""></a>
         <div class="menu-btn"></div>
         <div class="navigation">
             <a href="/"><i class="fa-solid fa-house"></i> Inicio</a>
@@ -32,9 +36,16 @@
     <section class="main sobreNosotros" id="main">
         <div class="content">
         <div class="content">
-            <h2>SOBRE NOSOTROS</h2>
+            <h2 class="animate__animated animate__backInLeft">SOBRE NOSOTROS</h2>
         </div>
-      </section>
+    </section>
+    <main class="about">
+      <h1>Somos Hábitat Design.</h1>
+      <br>
+      <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quos, molestiae illum sequi quis cum praesentium architecto suscipit aut, sit eius unde mollitia debitis hic accusantium assumenda animi excepturi omnis!</p>
+      </div>
+    </main>
       <%- include("partials/footer") %>
       <script src="js/main.js" charset="utf-8"></script>
 
