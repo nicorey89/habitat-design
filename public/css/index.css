@@ -19,42 +19,42 @@ section.main, section.cocinasAMedida{
 }
 
 .home{
-    background: url(/images/gallery/cocinas/mueble-cocina2.jpg)no-repeat;
+    background: url(/images/vistas/home.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .cocinasAMedida{
-    background: url(/images/gallery/cocinas/mueble-cocina.jpg)no-repeat;
+    background: url(/images/vistas/cocinas.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .accesorios{
-    background: url(/images/gallery/cocinas/1.jpg)no-repeat;
+    background: url(/images/vistas/accesorios.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .vestidores{
-    background: url(/images/gallery/vestidores/1.jpg)no-repeat;
+    background: url(/images/vistas/vestidores.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .nuestrosTrabajos{
-    background: url(/images/gallery/cocinas/2.avif)no-repeat;
+    background: url(/images/vistas/trabajos.avif)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .sobreNosotros{
-    background: url(/images/gallery/cocinas/3.jpg)no-repeat;
+    background: url(/images/vistas/nosotros.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
