@@ -4,10 +4,10 @@ const controller = require ("../controllers/indexController");
 
 /* GET home page. */
 router.get('/', controller.index);
-router.get('/cocinas-a-medida', controller.search);
-router.get('/accesorios-de-cocina', controller.categoria);
-router.get('/vestidores-a-medida', controller.categorias);
-router.get('/nuestras-obras', controller.subcategoria);
+router.get('/cocinas', controller.search);
+router.get('/living', controller.categoria);
+router.get('/vestidores', controller.categorias);
+router.get('/office', controller.subcategoria);
 router.get('/sobre-nosotros', controller.sobreNosotros);
 
 

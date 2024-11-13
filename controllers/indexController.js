@@ -6,13 +6,13 @@ const controller ={
         res.render("cocinas")
     },
     categoria: (req,res) => {
-        res.render("accesorios")
+        res.render("living")
     },
     categorias: (req,res) => {
         res.render("vestidores")
     },
     subcategoria: (req,res) => {
-        res.render("nuestros-trabajos")
+        res.render("office")
     },
     sobreNosotros: (req,res) => {
         res.render("sobre-nosotros")
