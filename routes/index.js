@@ -6,7 +6,7 @@ const controller = require ("../controllers/indexController");
 router.get('/', controller.index);
 router.get('/cocinas', controller.search);
 router.get('/living', controller.categoria);
-router.get('/vestidores', controller.categorias);
+router.get('/dormitorios', controller.categorias);
 router.get('/office', controller.subcategoria);
 router.get('/sobre-nosotros', controller.sobreNosotros);
 
