@@ -9,7 +9,7 @@ const controller ={
         res.render("living")
     },
     categorias: (req,res) => {
-        res.render("vestidores")
+        res.render("dormitorios")
     },
     subcategoria: (req,res) => {
         res.render("office")
