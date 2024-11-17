@@ -33,21 +33,21 @@ section.main, section.cocinasAMedida{
 }
 
 .accesorios{
-    background: url(/images/vistas/accesorios.jpg)no-repeat;
+    background: url(/images/vistas/living.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .vestidores{
-    background: url(/images/vistas/vestidores.jpg)no-repeat;
+    background: url(/images/vistas/dormitorios.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .nuestrosTrabajos{
-    background: url(/images/vistas/trabajos.avif)no-repeat;
+    background: url(/images/vistas/office.jpg)no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
